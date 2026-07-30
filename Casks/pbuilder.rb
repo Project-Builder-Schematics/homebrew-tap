@@ -35,7 +35,7 @@ cask "pbuilder" do
   binary "builder"
 
   postflight do
-    if system_command("/usr/bin/xattr", args: ["-h"]).exit_status == 0
+    if File.executable?("/usr/bin/xattr")
       system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/builder"]
     end
   end
