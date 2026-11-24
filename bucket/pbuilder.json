@@ -1,25 +1,24 @@
 {
-    "version": "0.13.3",
+    "version": "0.13.5",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Project-Builder-Schematics/homebrew-tap/releases/download/v0.13.3/pbuilder_0.13.3_windows_amd64.zip",
+            "url": "https://github.com/Project-Builder-Schematics/homebrew-tap/releases/download/v0.13.5/pbuilder_0.13.5_windows_amd64.zip",
             "bin": [
                 "builder.exe"
             ],
-            "hash": "3c8ea5a1973e03678a0ac57670be151bdd7076b59ba7184925939bc4e6904bc5"
+            "hash": "0ecd625cb69bce273ac41c7857460edb050e39567c25aefe9fcf55dbe4816dba"
         },
         "arm64": {
-            "url": "https://github.com/Project-Builder-Schematics/homebrew-tap/releases/download/v0.13.3/pbuilder_0.13.3_windows_arm64.zip",
+            "url": "https://github.com/Project-Builder-Schematics/homebrew-tap/releases/download/v0.13.5/pbuilder_0.13.5_windows_arm64.zip",
             "bin": [
                 "builder.exe"
             ],
-            "hash": "536fd0a99d0bf5cf99f5bdc5fe81c8dd46801cdf7472f0d09dd25ea260e61f37"
+            "hash": "ad3aeba85fe6220c618bb3139b405ccaf1ff59a65ec4af005e941a8d1ceb3d12"
         }
     },
     "homepage": "https://github.com/Project-Builder-Schematics/homebrew-tap",
     "description": "Schematic-driven CLI for initialising, scaffolding, and maintaining software projects",
     "post_install": [
-        "Write-Host 'builder executes schematics through a Bun sidecar at runtime.'",
-        "Write-Host 'Install Bun if you do not have it: scoop install bun (or https://bun.sh)'"
+        "Write-Host 'builder provisions its own Bun: the first execute downloads a pinned, checksum-verified Bun into your user cache directory, so it needs network access once.'"
     ]
 }
