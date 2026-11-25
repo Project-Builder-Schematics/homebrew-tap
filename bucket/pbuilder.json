@@ -1,19 +1,19 @@
 {
-    "version": "0.13.9",
+    "version": "0.13.10",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Project-Builder-Schematics/homebrew-tap/releases/download/v0.13.9/pbuilder_0.13.9_windows_amd64.zip",
+            "url": "https://github.com/Project-Builder-Schematics/homebrew-tap/releases/download/v0.13.10/pbuilder_0.13.10_windows_amd64.zip",
             "bin": [
                 "builder.exe"
             ],
-            "hash": "a5eac90aa6a014945303c955121809fd48def914d90b09c87cfe18d756daec06"
+            "hash": "2de4fdedaf7958541f6ce269e82dedb887fbffcd92873c629c19f430c1da913b"
         },
         "arm64": {
-            "url": "https://github.com/Project-Builder-Schematics/homebrew-tap/releases/download/v0.13.9/pbuilder_0.13.9_windows_arm64.zip",
+            "url": "https://github.com/Project-Builder-Schematics/homebrew-tap/releases/download/v0.13.10/pbuilder_0.13.10_windows_arm64.zip",
             "bin": [
                 "builder.exe"
             ],
-            "hash": "850708685a66f68707d45a7d3f89d1bf5f2c907f7ddf24d8973bb22a9d2ae4e2"
+            "hash": "b45f73902c0ea8a6167b6a6ae3ece3ea701e4998b2d274a7048ce324f5f170b5"
         }
     },
     "homepage": "https://github.com/Project-Builder-Schematics/homebrew-tap",
